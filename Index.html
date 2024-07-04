@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mico Hospital</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <nav>
+        <div class="top-nav">
+            <div class="top-nav-element">
+                <i class='bx bxs-phone'></i>
+                <p>Call: +880 1973336001</p>
+            </div>
+            <div class="top-nav-element">
+                <i class='bx bxs-envelope'></i>
+                <p>Email: aashoikot002@gmail.com</p>
+            </div>
+            <div class="top-nav-element">
+                <i class='bx bxs-location-plus'></i>
+                <p>Location</p>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <div class="left">
+                <ul>
+                    <li style="background-color: white; padding: 0px 15px;">
+                        <img src="logo.png" alt="page-logo" width="70px" height="80px">
+                    </li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Treatment</a></li>
+                    <li><a href="#">Doctors</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                    <li>
+                        <i class='bx bxs-user'></i>
+                        <a href="#">Login</a>
+                    </li>
+                    <li>
+                        <i class='bx bxs-user'></i>
+                        <a href="#">Signup</a>
+                    </li>
+                    <li>
+                        <i class='bx bx-search'></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="hero-left">
+            <i class='bx bx-play-circle '></i>
+            <h1 id="MICO">MICO</h1>
+            <h1 id="HOSPITAL">HOSPITAL</h1>
+            <p>When looking at it's layout. The point of using Lorem ipsum is that it has a more-or-less normal
+                distribution of letters, as opposed to</p>
+            <button id="btn">Contact Us</button>
+        </div>
+        <div class="hero-right">
+            <img src="slider-img.jpg" alt="sliderImage" width="500px">
+            <img id="EFFECT" src="dots.png" alt="effects">
+            <div class="arrows">
+                <div class="arrow-left">
+                    <img src="prev.png" width="14px" height="20px">
+                </div>
+                <div class="arrow-right">
+                    <img src="next.png" width="14px" height="20px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="appointment">
+        <form action="#">
+            <h1><span id="BOOK">Book</span> Appointment</h1>
+            <div class="first-row">
+                <div class="card">
+                    <label>Patient Name</label>
+                    <input type="text">
+                </div>
+                <div class="card">
+                    <label>Doctor's Name</label>
+                    <select id="select">
+                        <option value="" selected>Normal distribition</option>
+
+                    </select>
+                </div>
+                <div class="card">
+                    <label>Department's Name</label>
+                    <select id="select">
+                        <option value="" selected>Normal distribition</option>
+                    </select>
+                </div>
+            </div>
+            <div class="last-row">
+                <div class="card">
+                    <label>Phone Number</label>
+                    <input type="text" placeholder="XXXXXXXXXXXXXX">
+                </div>
+                <div class="card">
+                    <label>Symptopms</label>
+                    <input type="text">
+                </div>
+                <div class="card">
+                    <label>Choose Date</label>
+                    <input type="date">
+                </div>
+            </div>
+            <button id="btn">Submit Now</button>
+        </form>
+    </div>
+</body>
+</html>
